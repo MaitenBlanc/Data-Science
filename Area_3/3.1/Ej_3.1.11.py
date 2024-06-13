@@ -6,7 +6,6 @@ import io
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-
 url = "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivosFiscalizacion/BBDD_Funcionarios_Publicos_2020.csv"
 
 data = urllib.request.urlopen(url)

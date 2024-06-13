@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('C:/Users/maite/OneDrive/Escritorio/Curso-NTT/Area_3/3.4/archivos/ejecucion-presupuestaria_Chile-febrero-2023.csv', sep=';')
+df = pd.read_csv('./archivos/ejecucion-presupuestaria_Chile-febrero-2023.csv', sep=';')
 
 mayor_20000 = df[(df['Ejecución_de_FEBRERO'] > 20000) & (df['Moneda'] == "DOLARES")]
 

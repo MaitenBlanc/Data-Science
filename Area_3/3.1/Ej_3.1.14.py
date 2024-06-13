@@ -9,7 +9,7 @@ url = "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/arch
 df = pd.read_csv(url, sep=";")
 
 nombre = "Funcionarios_Chile.csv"
-route = "C:/Users/maite/OneDrive/Escritorio/Curso-NTT/Area_3/archivos/"
+route = "./archivos/"
 
 df.to_csv(route + nombre, sep=";", encoding="utf-8")
 
@@ -17,6 +17,3 @@ df.to_csv(route + nombre, sep=";", encoding="utf-8")
 funcionarios = pd.read_csv(route + nombre, sep=";")
 
 print(funcionarios)
-
-
-

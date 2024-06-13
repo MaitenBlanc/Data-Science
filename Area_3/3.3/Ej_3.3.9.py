@@ -22,6 +22,3 @@ plt.show()
 # Correlación
 correlacion = np.corrcoef(x, y)
 print(f"Valor de correlación: {correlacion[0][1]}")
-
-
-

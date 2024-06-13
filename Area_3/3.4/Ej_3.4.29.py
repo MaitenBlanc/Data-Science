@@ -17,6 +17,3 @@ df_sin_nulos = df[cant_nulos].dropna()
 
 print(f"Columnas sin valores nulos: \n{cols_sin_nulos}\n")
 print(f"DataFrame sin valores nulos: \n{df_sin_nulos}")
-
-
-

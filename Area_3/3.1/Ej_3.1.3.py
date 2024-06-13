@@ -1,6 +1,6 @@
 import numpy as np
 
-route = "C:/Users/maite/OneDrive/Escritorio/Curso-NTT/Area_3/archivos/apellidos_mas_frecuentes_pais_Argentina.csv"
+route = "./archivos/apellidos_mas_frecuentes_pais_Argentina.csv"
 
 data = np.genfromtxt(route, delimiter=",", encoding="utf-8", dtype=None, names=True)
 

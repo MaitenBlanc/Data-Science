@@ -9,5 +9,3 @@ plt.boxplot(df['porcentaje_de_poblacion_portadora'], patch_artist=True)
 plt.title("Gráfico de Cajas de porcentaje de población portadora")
 plt.grid()
 plt.show()
-
-

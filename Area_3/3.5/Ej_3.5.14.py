@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 import pandas as pd
 
-ruta = "C:/Users/maite/OneDrive/Escritorio/Curso-NTT/Area_3/3.5/archivos/indicadores.csv"
+ruta = "./archivos/indicadores.csv"
 df = pd.read_csv(ruta, sep=';')
 
 df.boxplot(column=["Anno2014", "Anno2016"],
