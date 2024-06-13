@@ -1,0 +1,13 @@
+{
+    "nombre": "John Smith",
+    "edad": 30,
+    "direccion": {
+        "calle": "123 Main Street",
+        "ciudad": "Madrid",
+        "pais": "Espa\u00f1a"
+    },
+    "telefonos": [
+        "555-555-555",
+        "333-444-444"
+    ]
+}
